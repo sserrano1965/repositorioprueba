@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Black Gold Power</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Black Gold Power Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#" data-section="home" data-en="Home" data-es="Inicio">Home</a></li>
+        <li><a href="#" data-section="about" data-en="About Us" data-es="Nosotros">About Us</a></li>
+        <li><a href="#" data-section="mission" data-en="Our Mission" data-es="Nuestra Misión">Our Mission</a></li>
+        <li><a href="#" data-section="products" data-en="Products" data-es="Productos">Products</a></li>
+        <li><a href="#" data-section="presence" data-en="Global Presence" data-es="Presencia Global">Global Presence</a></li>
+        <li><a href="#" data-section="contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+      </ul>
+      <select id="languageSwitcher">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section visible">
+      <div class="hero" style="background-image: url('images/bg-refinery.jpg');">
+        <div class="hero-content">
+          <h1>Black Gold Power</h1>
+          <p data-en="Discover our global energy product offering."
+             data-es="Descubre nuestra oferta de productos energéticos globales.">
+            Discover our global energy product offering.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 data-en="About Us" data-es="Nosotros">About Us</h2>
+      <p data-en="Black Gold Power is formed by a team with over 30 years of experience in the energy market."
+         data-es="Black Gold Power está formada por un equipo con más de 30 años de experiencia en el mercado energético.">
+         Black Gold Power is formed by a team with over 30 years of experience in the energy market.
+      </p>
+    </section>
+
+    <section id="mission" class="section">
+      <h2 data-en="Our Mission" data-es="Nuestra Misión">Our Mission</h2>
+      <p data-en="To do and create business with conscience and responsibility, managed with ethics and values."
+         data-es="Crear y operar negocios con conciencia y responsabilidad, gestionados con ética y valores.">
+         To do and create business with conscience and responsibility, managed with ethics and values.
+      </p>
+    </section>
+
+    <section id="products" class="section">
+      <h2 data-en="Our Products" data-es="Nuestros Productos">Our Products</h2>
+      <ul>
+        <li>Jet Fuel A-1</li>
+        <li>Diesel EN 590, D2, D6</li>
+        <li>Gasoline 95 Octane</li>
+        <li>Natural Gas, Propane, Butane</li>
+        <li>JP-54, Methanol, Pale Oil 60, SN 100</li>
+      </ul>
+    </section>
+
+    <section id="presence" class="section">
+      <h2 data-en="Global Presence" data-es="Presencia Global">Global Presence</h2>
+      <p>Houston, London, Luxemburg, Rotterdam, Bahrain, Qatar, Dubai</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+      <form action="https://formspree.io/f/mwkgyrrz" method="POST">
+        <label data-en="Your Name" data-es="Tu Nombre">Your Name</label>
+        <input type="text" name="name" required />
+        <label data-en="Your Email" data-es="Tu Correo">Your Email</label>
+        <input type="email" name="email" required />
+        <label data-en="Message" data-es="Mensaje">Message</label>
+        <textarea name="message" required></textarea>
+        <button type="submit" data-en="Send" data-es="Enviar">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Black Gold Power</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
